@@ -1,0 +1,47 @@
+{
+  "title": "Layer for japanese 3",
+  "rules": [
+    {
+      "description": "fn z = %",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": ["fn"]
+            },
+            "key_code": "z"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "5",
+              "modifiers": ["right_shift"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "fn x -> &",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": ["fn"]
+            },
+            "key_code": "x"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "6",
+              "modifiers": ["right_shift"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

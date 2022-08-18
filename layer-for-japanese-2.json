@@ -1,0 +1,109 @@
+{
+  "title": "Layer for japanese 2",
+  "rules": [
+    {
+      "description": "fn a = #",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": ["fn"]
+            },
+            "key_code": "a"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "3",
+              "modifiers": ["right_shift"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "fn s -> (",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": ["fn"]
+            },
+            "key_code": "s"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "8",
+              "modifiers": ["right_shift"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "fn d -> (",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": ["fn"]
+            },
+            "key_code": "d"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "8",
+              "modifiers": ["right_shift"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "fn f = )",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": ["fn"]
+            },
+            "key_code": "f"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "9",
+              "modifiers": ["right_shift"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "fn g -> @",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": ["fn"]
+            },
+            "key_code": "g"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "open_bracket"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

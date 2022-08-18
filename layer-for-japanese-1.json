@@ -1,0 +1,108 @@
+{
+  "title": "Layer for japanese 1",
+  "rules": [
+    {
+      "description": "fn q = !",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": ["fn"]
+            },
+            "key_code": "q"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "1",
+              "modifiers": ["right_shift"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "fn w -> ?",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": ["fn"]
+            },
+            "key_code": "w"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "slash",
+              "modifiers": ["right_shift"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "fn e -> [",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": ["fn"]
+            },
+            "key_code": "e"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "close_bracket"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "fn r = ]",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": ["fn"]
+            },
+            "key_code": "r"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "non_us_pound"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "fn t -> ~",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": ["fn"]
+            },
+            "key_code": "t"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "equal_sign",
+              "modifiers": ["left_shift"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
